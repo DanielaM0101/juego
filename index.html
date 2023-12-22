@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="juego.css">
+  <title>Carta Mayor</title>
+</head>
+<body>
+  <div class="game-container">
+    <div class="player-info">
+      <p>Vidas: <span id="lives">3</span></p>
+      <p>Puntaje: <span id="score">0</span></p>
+
+    </div>
+    <div class="cards">
+      <button id ="inicio"onclick="playRound()">Jugar Carta</button>
+      <div class="player-card" id="player-card">Jugador</div>
+      <div class="computer-card" id="computer-card">Computador</div>
+    </div>
+    <div class="result">
+      <p id="result-text"></p>
+    </div>
+  </div>
+
+ 
+
+  <script src="cartamayor.js"></script>
+</body>
+</html>
